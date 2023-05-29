@@ -5,8 +5,7 @@ $temp_corte = $_POST['temp_corte'];
 $conhece_nb = $_POST['conhece_nb'];
 
 // Nome do arquivo CSV
-$arquivo = './dados.csv';
-echo getcwd();
+$arquivo = getcwd() . '/dados.csv';
 // Verifica se o arquivo já existe
 if (!file_exists($arquivo)) {
     // Se o arquivo não existir, cria o cabeçalho
