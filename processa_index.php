@@ -1,8 +1,8 @@
 <?php
 // Dados do formulário
-$nome = $_POST['nome'];
-$email = $_POST['email'];
-$idade = $_POST['idade'];
+$cidade = $_POST['cidade'];
+$temp_corte = $_POST['temp_corte'];
+$conhece_nb = $_POST['conhece_nb'];
 
 // Nome do arquivo CSV
 $arquivo = './dados.csv';
@@ -15,7 +15,7 @@ if (!file_exists($arquivo)) {
 }
 
 // Conteúdo a ser gravado no arquivo
-$conteudo = "$nome;$email;$idade\n";
+$conteudo = "$cidade;$temp_corte;$conhece_nb\n";
 
 // Grava os dados no arquivo
 file_put_contents($arquivo, $conteudo, FILE_APPEND);
