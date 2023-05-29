@@ -13,7 +13,7 @@
   <div class="container">
     <div class="area-container">
       <div class="card-left">
-        <img src="assets/img/confiant.png" />
+        <img src="assets/img/nb-icon.png" width="320" height="320"/>
       </div>
 
       <form id="formulario" class="card-right" method="POST" action="processa_index.php">
