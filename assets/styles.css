@@ -27,8 +27,8 @@
   align-items: center;
 }
 .container .area-container .card-left img {
-  width: 350px;
-  height: 320px;
+  width: 500px;
+  height: 250px;
   opacity: 0;
   animation-name: img;
   animation-duration: 1s;
