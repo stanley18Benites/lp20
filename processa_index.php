@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $idade = $_POST['idade'];
 
 // Nome do arquivo CSV
-$arquivo = 'dados.csv';
+$arquivo = './dados.csv';
 
 // Verifica se o arquivo já existe
 if (!file_exists($arquivo)) {
