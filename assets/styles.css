@@ -27,7 +27,8 @@
   align-items: center;
 }
 .container .area-container .card-left img {
-  width: 400px;
+  width: 350px;
+  height: 320px;
   opacity: 0;
   animation-name: img;
   animation-duration: 1s;
@@ -139,6 +140,7 @@ button:hover {
   }
   .container .area-container .card-left img {
     width: 240px;
+    height: 240px;
   }
   .container .area-container .card-right {
     justify-content: flex-start;
