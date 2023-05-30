@@ -7,7 +7,7 @@
 
 .container {
   /* background-image: url("assets/img/bg.png"); */
-  background-color: #1e293b;
+  background-color: #000;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,15 +29,6 @@
 .container .area-container .card-left img {
   width: 500px;
   height: 250px;
-  opacity: 0;
-  animation-name: img;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-@keyframes img {
-  100% {
-    opacity: 1;
-  }
 }
 .container .area-container .card-right {
   display: flex;
@@ -75,7 +66,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #174357;
+  color: #1e293b;
 }
 button {
   width: 100%;
@@ -83,7 +74,7 @@ button {
   border: none;
   text-align: left;
   font-size: 16px;
-  color: #174357;
+  color: #1e293b;
 }
 button:hover {
   background: linear-gradient(
@@ -96,7 +87,7 @@ button:hover {
   font-size: 20px;
   position: absolute;
   left: 0px;
-  background-color: #174357;
+  background-color: #1e293b;
   width: 40px;
   color: #fff;
 }
@@ -105,7 +96,7 @@ button:hover {
   min-width: 320px;
   padding: 10px;
   transition: 2s;
-  color: #174357;
+  color: #1e293b;
   text-align: center;
   border-color: #fff;
   display: flex;
@@ -139,8 +130,8 @@ button:hover {
     width: 100%;
   }
   .container .area-container .card-left img {
-    width: 240px;
-    height: 240px;
+    width: 350px;
+    height: 180px;
   }
   .container .area-container .card-right {
     justify-content: flex-start;
